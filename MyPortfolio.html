@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: rgb(79, 30, 76);
+        font-family: 'poppins',sans-serif;
+
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: white;
+        background-color: rgb(144, 12, 140);
+        height: 80px;
+        
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        
+    }
+    nav ul li{
+        list-style: none;
+        margin: 0 29px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        color: rgb(206, 206, 253);
+        font-size: 1.04rem;
+    }
+    .left{
+        font-size: 1.5rem;
+    }
+    .firstsection{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 39px;
+    }
+    .leftsection{
+        width: 30%;
+        font-size: 2.5rem;
+        margin-top: 120px;
+        color: white;
+        
+    }
+    .rightsection{
+        
+        width: 30%;
+        
+    } 
+    
+        
+     
+    .rightsection img{
+        width: 90%;
+        margin-top: 30px;
+        
+    }
+     .name{
+        color: rgb(46, 213, 24);
+        
+    }
+    .secondsection{
+        color: white;
+        max-width: 80vw;
+        margin: auto;
+
+    }
+    .Thirdsection{
+        color: white;
+        max-width: 80vw;
+        margin: auto;
+
+    }
+    .line{
+        background-color: rgb(101, 250, 60);
+        border: 0;
+        margin: 67px 83px;
+        height: 1.2px;
+        
+    }
+    .line2{
+        background-color: rgb(101, 250, 60);
+        border: 0;
+        margin: 67px 83px;
+        height: 1.2px;}
+    .icons img{
+        width: 8%;
+        margin: 10px;
+
+    }
+    div h1{
+        font-size: 3rem;
+    }
+    .aboutme{
+        border: 2px rgb(46, 232, 33) solid;
+        width: 55%;
+        
+        border-radius: 6px;
+        font-size: 25px;
+        word-spacing: 3px;
+        margin-top: 30px;
+        padding: 20px;
+        
+    }
+    .aboutme2{
+        
+        
+        
+        border-radius: 6px;
+        font-size: 25px;
+        word-spacing: 3px;
+        margin-top: 30px;
+        padding: 20px;
+    }
+</style>
+<body>
+    <header>
+        <nav>
+            <div class="left">Altaf's Portfolio+</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hey, My name is <span class="name">Altaf</span><br>
+                <div>and I am a Proud </div>
+                
+                <span class="name" id ="element"></span>
+               <div class="icons"><a href="/"><img  src="github-mark-white.png"></a>
+           <a href="/"><img src="linkedin.png"></a></div>
+
+            </div>
+            <div class="rightsection"><img src="—Pngtree—web developer isometric illustration_6067558.png"></div>
+        </section>
+        <hr class="line">
+        <section class="secondsection">
+        <div><h1>About me</h1></div>
+        <div class="aboutme"><span class="name">Hey</span>, This is <span class="name">Altaf</span> From India, A full Stack Web developer and Web Designer
+                                I am in this Feild learning and Growing from <span class="name">5 years</span> and still Learning many
+                                 new things as Development the sea of skills I can now say i have expertise 
+                                 in<span class="name"> Web development </span> designing and App Development and I am willing to take new and 
+                                 exciting projects Always so contact me<span class="name"> Freely.... </span> </p></div>
+
+        </section>
+        <hr class="line2">
+        <section class="Thirdsection">
+            <div><h1>Past experience</h1></div>
+            <div class="aboutme2"> <ul>
+                <li>Worked at Google As a Web developer from (2010-2012)</li>
+                <li>Worked in TCS As a Web designer From (2012-2015)</li>
+                <li>Worked in Tesla as a senior App developer from (2015-2019)</li>
+                <li>Currently Working as a Independent developer and running my own Agency of development.</li>
+            </ul> </div>
+    
+            </section>
+            <hr class="line2">
+            <section class="Thirdsection">
+                <div><h1>Contact me</h1></div>
+                <div class="aboutme2">       <div class="icons"><a href="/"><img  src="github-mark-white.png"></a>
+                    <a href="/"><img src="linkedin.png"></a>
+                    <a href="/"><img src="1608790_phone_icon.png"></a></div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer', 'Web Designer','App Developer','React developer'],
+          typeSpeed: 50,
+        });
+      </script>
+    </body>
+</body>
+</html>
